@@ -30,7 +30,7 @@ Well it doesn't do to much...
 * When used as relay, with SSH ProxyCommand for example,
 it maintains the session open until you finish, unlike /bin/false or
 nologin.
-* When you actually login the account, it just displays the data and a motd.
+* When you actually login the account, it just displays the date and a motd.
 And it keeps running until you close it.
 
 Features
@@ -40,6 +40,7 @@ Features
 * Unix like compatible, it should run on most of the Unix like OS's
 * Simple to install and use.
 * Few dependencies, just stardard C lib and a C compiler.
+* Log to syslog
 
 Requirements
 ------------
