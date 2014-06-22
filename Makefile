@@ -1,11 +1,7 @@
 
 
-gcc: dummy_shell.c
-	gcc -O2 -g dummy_shell.c -o dummy
-	strip dummy
-
-clang: dummy_shell.c
-	clang -O2 -g dummy_shell.c -o dummy
+dummy: dummy_shell.c
+	cc -O2 -g dummy_shell.c -o dummy
 	strip dummy
 
 install: 
