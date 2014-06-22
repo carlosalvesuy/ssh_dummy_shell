@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/carlosalvesuy/ssh_dummy_shell.svg?branch=master)](https://travis-ci.org/carlosalvesuy/ssh_dummy_shell)
+
 SSH Dummy Shell
 ===============
 

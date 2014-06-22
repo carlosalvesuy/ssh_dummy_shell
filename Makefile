@@ -1,7 +1,7 @@
 
 
 dummy: dummy_shell.c
-	cc -O2 -g dummy_shell.c -o dummy
+	$(CC) -O2 -g dummy_shell.c -o dummy
 	strip dummy
 
 install: 
