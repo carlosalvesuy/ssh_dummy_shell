@@ -119,5 +119,7 @@ main(void)
     }
     else {
         puts("This shell is meant to use only for ssh forward users.");
-    }    
+    }
+
+    return 0;
 }
