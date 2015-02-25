@@ -5,7 +5,7 @@ dummy: dummy_shell.c
 	strip dummy
 
 install: 
-	cp dummy_shell /usr/bin/dummy
+	cp dummy /usr/bin/dummy
 
 clean:
 	rm -f dummy
